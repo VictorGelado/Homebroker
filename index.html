@@ -10,6 +10,12 @@
 </head>
 <body>
     <section class="centro">
+        
+        <div class="aviso-subscribe">
+            <span id="fechar-aviso-subscribe">X</span>
+            <p>Inscrito com sucesso!!!</p>
+        </div>
+
         <header>
             <ul class="menu">
                 <div>
@@ -34,7 +40,7 @@
                     <div class="message">
                         <i class="fa-solid fa-message" style="margin-right: 8px;"></i>
                         Messages
-                        <span>24</span>
+                        <span id="qtd_messages">24</span>
                     </div>
                     <div class="invite">
                         <i class="fa-brands fa-telegram" style="margin-right: 8px;"></i>
@@ -59,7 +65,7 @@
                     <i class="fa-solid fa-plus plus-card"></i>
 
                     <div class="img-card">
-                        <img src="./images/mulher1.jpg" alt="Imagem de perfil">
+                        <img src="./images/mulher1.jpg" alt="Imagem de perfil" id="img-perfil-switch">
                     </div>
 
                     <div class="content">
@@ -95,7 +101,7 @@
                         <i class="fa-solid fa-envelope icon-email"></i>
                         <input type="email" placeholder="youremail@gmail.com">
                     </div>
-                    <button>SUBSCRIBE</button>
+                    <button id="subscribe">SUBSCRIBE</button>
                 </div>
                 <div class="card">
                     <p>OS AUDIENCE STATS</p>
@@ -145,5 +151,6 @@
 
 
     <script src="https://kit.fontawesome.com/a20fb09076.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
